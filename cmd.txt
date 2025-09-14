@@ -1,2 +1,26 @@
 1. How to check status in ur git
 => git status is used to check to any file is commited or not
+
+2. first commited
+=>> st user name and email "git config --global user.name/email "surajitncode / surajitmusi0@gmail.com"
+
+3. fist init of a folder
+=> git init
+
+4. To add file for commited
+=> git add .   // universh-al all file added
+
+5. first commite
+=> git commit -m "massage"
+
+6. to commit first time we need to configure remote origin
+=> git remote add origin https://github.com/surajitnocode/Practice.git
+
+7. to check wheather the origin is added or not
+=> git remote -v
+
+8. check the branch and push
+=> git branch / git branch -a
+
+9. git push for first time
+=> git push -u origin branch_name
